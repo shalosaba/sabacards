@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.font{
+    font-family: "DM Serif Display", serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.parrent-1{
+    width: 360px;
+    height: 528px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+}
+.info_icon{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    top: 16px;
+    right: 24px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+.img-1{
+    background-image:url(../images/Pizza.jpg);
+    height: 216px;
+    width: 360px;
+    background-repeat: no-repeat;
+}
+.info{
+    padding: 32px 24px;
+}
+.info p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+.peperoni{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #F8593B;
+    text-align: center;
+    line-height: 24px;
+}
+
+.wheat{
+    background-color: #FFC22B;
+    color: #FFFFFF
+}
+.icon_box{
+    display: flex;
+    gap: 9px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about span{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 0;
+}
+.price span:first-child{
+    font-family: "DM Serif Display", serif;
+    font-size: 28px;
+    line-height: 25px;
+    color: #081F32;
+}
+.price span:nth-child(2){
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration-line: line-through;
+    color: #F8593B;
+    margin-right: 29px;
+}
+.price button{
+    background: #2ECC71;
+    border-radius: 4px;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
