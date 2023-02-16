@@ -1,114 +1,138 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-.font{
-    font-family: "DM Serif Display", serif;
-    font-family: "Open Sans", sans-serif;
-}
-
-body{
-    background-color: grey;
+  }
+  
+  body {
+    background: #b4aeae;
+    padding: 200px;
     display: flex;
     justify-content: center;
-    padding: 100px;
-}
-
-.parrent-1{
+    gap: 50px;
+  }
+  h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: #081f32;
+  }
+  
+  .card {
     width: 360px;
     height: 528px;
+    background: #ffffff;
     border-radius: 16px;
-    background-color: #FFFFFF;
     overflow: hidden;
     position: relative;
-}
-.info_icon{
+  }
+  .infoicon {
     position: absolute;
     width: 32px;
     height: 32px;
-    background: #FFFFFF;
-    border-radius: 50%;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
     top: 16px;
     right: 24px;
     text-align: center;
-    line-height: 35px;
+    line-height: 38px;
+    border-radius: 50%;
     cursor: pointer;
-}
-.img-1{
-    background-image:url(../images/Pizza.jpg);
+  }
+  .card_img_box {
     height: 216px;
-    width: 360px;
-    background-repeat: no-repeat;
-}
-.info{
-    padding: 32px 24px;
-}
-.info p{
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 25px;
-    color: #6E798C;
-    letter-spacing: 0.02em;
-    padding: 24px 0;
-}
-.peperoni{
+    background: url(../images/Pizza.jpg); 
+  }
+  .strawberry {
+    background: url(../images/Strawberry.png);
+  }
+  .tortellini {
+    background: url(../images/Tortellini.png);
+  }
+  .product_details {
+    padding: 32px 24px 32px 24px;
+  }
+  .peperoni {
     display: flex;
     justify-content: space-between;
-}
-.icon{
+  }
+  .icon {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+  }
+  .flame {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background: #F8593B;
+    background: #f8593b;
     text-align: center;
     line-height: 24px;
-}
-
-.wheat{
-    background-color: #FFC22B;
-    color: #FFFFFF
-}
-.icon_box{
-    display: flex;
-    gap: 9px;
-}
-.about{
+  }
+  .leaf {
+    background-color: #2ecc71;
+  }
+  .wheat {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    background: #ffc22b;
+  }
+  .text {
+    font-family: "Open Sans", sans-serif;
+    padding: 24px 0;
+    font-size: 16px;
+    color: #6e798c;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+  }
+  .text1 {
+    font-family: "Open Sans", sans-serif;
+    padding: 24px 0;
+    font-size: 16px;
+    color: #6e798c;
+    line-height: 25px;
+  }
+  .info {
     display: flex;
     justify-content: space-between;
-}
-.about span{
+  }
+  .info span {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 25px;
-    color: #A5ADBB;
-}
-.price{
+    color: #a5adbb;
+    padding-bottom: 41px;
+  }
+  .price {
     display: flex;
     justify-content: space-between;
-    padding: 41px 0;
-}
-.price span:first-child{
+    align-items: center;
+  }
+  .price span {
     font-family: "DM Serif Display", serif;
+  }
+  .price span:first-child {
     font-size: 28px;
-    line-height: 25px;
-    color: #081F32;
-}
-.price span:nth-child(2){
-    font-family: "DM Serif Display", serif;
+    color: #081f32;
+  }
+  .price span:nth-child(2) {
+    text-decoration: line-through;
     font-size: 20px;
-    line-height: 25px;
-    text-decoration-line: line-through;
-    color: #F8593B;
+    color: #f8593b;
     margin-right: 29px;
-}
-.price button{
-    background: #2ECC71;
+  }
+  .price button {
+    background: #2ecc71;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.18em;
     border-radius: 4px;
+    color: #ffffff;
     padding: 15px 30px;
-    color: #FFFFFF;
     border: none;
     cursor: pointer;
-}
+  }
+  
